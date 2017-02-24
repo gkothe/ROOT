@@ -1,0 +1,60 @@
+.icons {
+	color: WHITE;
+	width: 67px;
+	height: 165px;
+	background-color: #63C6AE;
+	display: inline-block;
+	padding-top: 70PX;
+	padding-left: 20PX
+}
+
+.icons_text {
+	text-align: justify;
+	padding-right: 20px;
+}
+
+.btn_app {
+	max-height: 50px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.section {
+	font-size: 120% !important;
+	padding-left: 5px;
+	padding-right: 5px
+}
+
+.mid-top {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a:hover, a:focus {
+	color: #586165 !important;
+	text-decoration: underline;
+}
+
+.mid-section {
+	border: 0px !important;
+}
+
+.titletopic{
+text-align: center; border-bottom: 2px solid !important;  border-color: #63C6AE !important; padding-bottom: 5px;
+
+ 
+
+}
+
+body{
+
+font-family: Open Sans, sans-serif !important;
+	
+	
+}
+
+
+p.four {
+    border-style: solid;
+    border-color: #63C6AE;
+}
