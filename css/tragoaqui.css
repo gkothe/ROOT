@@ -11,6 +11,7 @@
 .icons_text {
 	text-align: justify;
 	padding-right: 20px;
+	color: #4e4e4e !important;
 }
 
 .btn_app {
@@ -22,7 +23,7 @@
 .section {
 	font-size: 120% !important;
 	padding-left: 5px;
-	padding-right: 5px
+	padding-right: 5px;
 }
 
 .mid-top {
@@ -39,22 +40,456 @@ a:hover, a:focus {
 	border: 0px !important;
 }
 
-.titletopic{
-text-align: center; border-bottom: 2px solid !important;  border-color: #63C6AE !important; padding-bottom: 5px;
-
- 
-
+.titletopic {
+	text-align: center;
+	border-bottom: 2px solid !important;
+	border-color: #63C6AE !important;
+	padding-bottom: 5px;
 }
 
-body{
-
-font-family: Open Sans, sans-serif !important;
-	
-	
+body {
+	font-family: Open Sans, sans-serif !important;
 }
 
+.topic1_h1 {
+	font-size: 35px !important;
+}
 
-p.four {
-    border-style: solid;
-    border-color: #63C6AE;
+@media ( max-width :1920px) {
+	.topic1_h1 {
+		font-size: 40px !important;
+	}
+	.slider-bg {
+		padding-top: 85px
+	}
+	#topic1 {
+		padding-bottom: 10px;
+		margin-top: 20px;
+	}
+	.img-responsive {
+		padding-top: 20px;
+		max-height: 330px;
+	}
+	.callbacks_tabs {
+		top: 350px !important;
+		right: 0px !important;
+		left: 0px !important;
+	}
+	.image_voce {
+		
+	}
+	.image_middle {
+		width: 450px !important;
+		height: auto !important;
+	}
+	.btn_app {
+		padding-bottom: 5px;
+	}
+	.col_btncontto {
+		padding-top: 10px;
+	}
+	.icons_text {
+		height: 170px !important;
+		padding: 0px;
+	}
+	.icons {
+		height: 180px;
+	}
+	.services-section-grid {
+		height: 200px;
+		background: url(../images/ser-bg2.png) no-repeat 0px 0px;
+		background-size: 98% 190px;
+	}
+	.service-icon-heading {
+		padding-right: 20px;
+		padding-left: 10px;
+	}
+}
+
+@media ( max-width :1440px) {
+	.topic1_h1 {
+		font-size: 40px !important;
+	}
+	.slider-bg {
+		padding-top: 85px
+	}
+	#topic1 {
+		padding-bottom: 10px;
+		margin-top: 20px;
+	}
+	.img-responsive {
+		padding-top: 20px;
+		max-height: 330px;
+	}
+	.callbacks_tabs {
+		top: 350px !important;
+		right: 0px !important;
+		left: 0px !important;
+	}
+	.image_voce {
+		
+	}
+	.image_middle {
+		width: 450px !important;
+		height: auto !important;
+	}
+	.btn_app {
+		padding-bottom: 5px;
+	}
+	.col_btncontto {
+		padding-top: 10px;
+	}
+	.icons_text {
+		height: 170px !important;
+		padding: 0px;
+	}
+	.icons {
+		height: 180px;
+	}
+	.services-section-grid {
+		height: 200px;
+		background: url(../images/ser-bg2.png) no-repeat 0px 0px;
+		background-size: 98% 190px;
+	}
+	.service-icon-heading {
+		padding-right: 20px;
+		padding-left: 10px;
+	}
+}
+
+@media ( max-width :1366px) {
+	.topic1_h1 {
+		font-size: 40px !important;
+	}
+	.slider-bg {
+		padding-top: 85px
+	}
+	#topic1 {
+		padding-bottom: 10px;
+		margin-top: 20px;
+	}
+	.img-responsive {
+		padding-top: 20px;
+		max-height: 330px;
+	}
+	.callbacks_tabs {
+		top: 350px !important;
+		right: 0px !important;
+		left: 0px !important;
+	}
+	.image_voce {
+		
+	}
+	.image_middle {
+		width: 450px !important;
+		height: auto !important;
+	}
+	.btn_app {
+		padding-bottom: 5px;
+	}
+	.col_btncontto {
+		padding-top: 10px;
+	}
+	.icons_text {
+		height: 170px !important;
+		padding: 0px;
+	}
+	.icons {
+		height: 180px;
+	}
+	.services-section-grid {
+		height: 200px;
+		background: url(../images/ser-bg2.png) no-repeat 0px 0px;
+		background-size: 98% 190px;
+	}
+	.service-icon-heading {
+		padding-right: 20px;
+		padding-left: 10px;
+	}
+}
+/* ok */
+@media ( max-width :1280px) {
+	.topic1_h1 {
+		font-size: 40px !important;
+	}
+	.slider-bg {
+		padding-top: 85px
+	}
+	#topic1 {
+		padding-bottom: 10px;
+		margin-top: 20px;
+	}
+	.img-responsive {
+		padding-top: 20px;
+		max-height: 330px;
+	}
+	.callbacks_tabs {
+		top: 350px !important;
+		right: 0px !important;
+		left: 0px !important;
+	}
+	.image_voce {
+		
+	}
+	.image_middle {
+		width: 450px !important;
+		height: auto !important;
+	}
+	.btn_app {
+		padding-bottom: 5px;
+	}
+	.col_btncontto {
+		padding-top: 10px;
+	}
+	.icons_text {
+		height: 170px !important;
+		padding: 0px;
+	}
+	.icons {
+		height: 180px;
+	}
+	.services-section-grid {
+		height: 200px;
+		background: url(../images/ser-bg2.png) no-repeat 0px 0px;
+		background-size: 98% 190px;
+	}
+	.service-icon-heading {
+		padding-right: 20px;
+		padding-left: 10px;
+	}
+}
+
+@media ( max-width :1024px) {
+	.topic1_h1 {
+		font-size: 40px !important;
+	}
+	.slider-bg {
+		padding-top: 160px
+	}
+	#topic1 {
+		padding-bottom: 10px;
+		margin-top: 0px;
+	}
+	.img-responsive {
+		padding-top: 20px;
+	}
+	.callbacks_tabs {
+		top: 295px !important;
+		right: 0px !important;
+		left: 0px !important;
+	}
+	.image_voce {
+		
+	}
+	.image_middle {
+		width: 450px !important;
+		height: auto !important;
+	}
+	.btn_app {
+		padding-bottom: 5px;
+	}
+	.col_btncontto {
+		padding-top: 10px;
+	}
+	.icons_text {
+		height: 170px !important;
+		padding: 0px;
+	}
+	.icons {
+		height: 180px;
+	}
+	.services-section-grid {
+		height: 200px;
+		background: url(../images/ser-bg2.png) no-repeat 0px 0px;
+		background-size: 100% 190px;
+	}
+	.service-icon-heading {
+		padding-right: 20px;
+		padding-left: 0px;
+	}
+}
+
+@media ( max-width :768px) {
+	.topic1_h1 {
+		font-size: 25px !important;
+	}
+	.slider-bg {
+		padding-top: 120px
+	}
+	#topic1 {
+		padding-bottom: 10px;
+		margin-top: 0px;
+	}
+	.img-responsive {
+		padding-top: 20px;
+	}
+	.callbacks_tabs {
+		top: 225px !important;
+		right: 0px !important;
+		left: 0px !important;
+	}
+	.image_voce {
+		display: none;
+	}
+	.btn_app {
+		padding-bottom: 5px;
+	}
+	.col_btncontto {
+		padding-top: 10px;
+	}
+	.icons_text {
+		height: 170px !important;
+		width: 100% !important;
+		padding: 0px;
+		padding-right: 10px;
+	}
+	.icons {
+		height: 180px;
+	}
+	.services-section-grid {
+		height: 200px;
+		background: url(../images/ser-bg2.png) no-repeat 0px 0px;
+		background-size: 100% 190px;
+	}
+	.service-icon-heading {
+		padding-left: 20px;
+		padding-right: 5px;
+	}
+}
+
+@media ( max-width :640px) {
+	.topic1_h1 {
+		font-size: 25px !important;
+	}
+	.slider-bg {
+		padding-top: 120px
+	}
+	#topic1 {
+		padding-bottom: 10px;
+		margin-top: 0px;
+	}
+	.img-responsive {
+		padding-top: 20px;
+	}
+	.callbacks_tabs {
+		top: 195px !important;
+		right: 0px !important;
+		left: 0px !important;
+	}
+	.image_voce {
+		display: none;
+	}
+	.btn_app {
+		padding-bottom: 5px;
+	}
+	.col_btncontto {
+		padding-top: 10px;
+	}
+	.icons_text {
+		height: 170px !important;
+		padding: 0px;
+		padding-right: 10px;
+	}
+	.icons {
+		height: 180px;
+	}
+	.services-section-grid {
+		height: 200px;
+		background: url(../images/ser-bg2.png) no-repeat 0px 0px;
+		background-size: 100% 190px;
+	}
+	.service-icon-heading {
+		padding-left: 20px;
+		padding-right: 0px;
+	}
+}
+
+@media ( max-width :480px) {
+	.topic1_h1 {
+		font-size: 20px !important;
+	}
+	.slider-bg {
+		padding-top: 120px
+	}
+	#topic1 {
+		padding-bottom: 10px;
+		margin-top: 0px;
+	}
+	.img-responsive {
+		padding-top: 20px;
+	}
+	.callbacks_tabs {
+		top: 160px !important;
+		right: 0px !important;
+		left: 0px !important;
+	}
+	.image_voce {
+		display: none;
+	}
+	.btn_app {
+		padding-bottom: 5px;
+	}
+	.col_btncontto {
+		padding-top: 10px;
+	}
+	.icons_text {
+		height: 150px !important;
+		padding: 0px;
+	}
+	.icons {
+		height: 165px;
+	}
+	.services-section-grid {
+		height: 200px;
+		background: url(../images/ser-bg2.png) no-repeat 0px 0px;
+	}
+	.service-icon-heading {
+		padding-left: 8.4px;
+		padding-right: 10px;
+	}
+}
+
+@media ( max-width :320px) {
+	.topic1_h1 {
+		font-size: 15px !important;
+	}
+	.slider-bg {
+		padding-top: 120px
+	}
+	#topic1 {
+		padding-bottom: 10px;
+		margin-top: 0px;
+	}
+	.img-responsive {
+		padding-top: 20px;
+	}
+	.callbacks_tabs {
+		top: 125px !important;
+		left: 0px !important;
+		right: 0px !important;
+	}
+	.image_voce {
+		display: none;
+	}
+	.btn_app {
+		padding-bottom: 5px;
+	}
+	.col_btncontto {
+		padding-top: 10px;
+	}
+	.icons_text {
+		height: 150px !important;
+		padding: 0px !important;
+	}
+	.icons {
+		height: 185px;
+	}
+	.services-section-grid {
+		height: 187px;
+		background: url(../images/ser-bg.png) no-repeat 0px 0px;
+	}
+	.service-icon-heading {
+		padding-left: 8.4px;
+		padding-right: 0px;
+	}
 }

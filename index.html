@@ -10,21 +10,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 <title>TragoAqui</title>
 <link rel="shortcut icon" href="favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- <script type="text/javascript" src="js/httpsredirect.js"></script> -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript" src="Javascript/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
 <script src="js/wow.min.js"></script>
 <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/tragoaqui.css">
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/animate.css" rel='stylesheet' type='text/css' />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link
 	href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Open+Sans:300italic,400italic,600italic,400,300,600,700'
 	rel='stylesheet' type='text/css'>
+<link href="css/animate.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/tragoaqui.css" media="all">
 <script>
 	addEventListener("load", function() {
 		setTimeout(hideURLbar, 0);
@@ -46,11 +47,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<!-- start h_menu4 -->
 					<a class="toggleMenu" href="#">Menu</a>
 					<ul class="nav">
-						<li class="active"><a class="scroll" href="index.html">PARA VOCÊ</a></li>
-						<li><a href="#about" class="scroll">PARA O COMERCIANTE</a></li>
-						<li><a href="portfolio.html">CONTATO</a>
-						<li><a href="portfolio.html">ACESSAR TRAGOAQUI </a>
-						<li><a href="feature.html">JÁ TRABALHA CONOSCO? </a>
+						<li id="div_paravoce_menu"><a>PARA VOCÊ</a></li>
+						<li id="div_paracomer_menu"><a>PARA O COMERCIANTE</a></li>
+						<li id="div_contato_menu"><a>CONTATO</a>
+						<li><a href="https://www.tragoaqui.com.br/appfit">ACESSAR TRAGOAQUI </a>
+						<li><a>JÁ TRABALHA CONOSCO? </a>
 							<ul>
 								<li style="padding-left: 20px; padding-right: 20px">Acessar sistema</li>
 								<li role="separator" class="divider"></li>
@@ -69,11 +70,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="slider-bg">
 		<div class="container">
 			<div class="grid-1">
-				<div class="col-md-5 left-grid-1 wow bounceInLeft" data-wow-delay="0.4s">
+				<div id="topic1" class="col-md-5 left-grid-1 wow bounceInLeft" data-wow-delay="0.4s">
 					<br>
-					<h1 style="font-size: 35px">A maneira mais cômoda de encontrar</h1>
-					<h2 style="font-size: 35px">Suplementação e alimentação fitness</h2>
-					<h3 style="font-size: 35px">Em Santa Cruz do Sul!</h3>
+					<h1 class="topic1_h1">A maneira mais cômoda de encontrar</h1>
+					<h1 class="topic1_h1">Suplementação e alimentação fitness</h1>
+					<h3 class="topic1_h1">Em Santa Cruz do Sul!</h3>
 				</div>
 				<div class="col-md-7 right-grid-1 wow bounceInRight" data-wow-delay="0.7s">
 					<div class="slider">
@@ -87,7 +88,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 					</div>
 				</div>
-				</script>
 				<script src="js/responsiveslides.min.js"></script>
 				<script>
 					$(function() {
@@ -106,18 +106,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!--//end-slider-->
 	<!--start-services-->
-	<div class="container">
+	<div class="container" id="div_paravoce">
 		<div class="mid-section">
 			<div class="mid-top wow fadeInUpBig animated animated" data-wow-delay="0.4s"; >
 				<div class="row">
-					<div class="col-md-12 mid-text " style="text-align: center;">
-						<h3 style="width: 100%; font-size: 120%">PARA VOCÊ !</h3>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  " style="text-align: center;">
+						<h3 style="width: 100%; font-size: 120%; font-weight: 900">PARA VOCÊ !</h3>
 						<p class="section">A maneira mais rápida e cômoda para encontrar a sua suplementação e alimentação fitness.
 							Acesse!</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12 mid-text " style="text-align: center; padding-top: 20px;">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  " style="text-align: center; padding-top: 20px;">
 						<img onClick="window.open('https://play.google.com/store/apps/details?id=com.tragoaqui.fit')"
 							src="/css/images/googleplay.png" class="btn_app"></img> <img src="/css/images/applestore.png" class="btn_app"
 							onClick='alert("Em desenvolvimento! :)")'; ></img> <img src="/css/images/webbbutton.png"
@@ -141,20 +141,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						efetuar sua compra.</p>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 " style="padding-left: 30px; padding-right: 30px">
-				<figure>
-					<img src="images/slide1.png" alt="" width="525px" height="260px !importabnt">
-				</figure>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 image_voce" style="padding-left: 30px; padding-right: 30px;text-align: center;">
+					<img src="images/slide1.png" alt="" class="image_middle" width="525px" height="260px !importabnt">
 			</div>
 		</div>
 		<br> <br>
 		<div class="row bounceInRight animated" style="padding-top: 10px" data-wow-delay="0.6s">
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 " style="padding-left: 30px; padding-right: 30px">
-				<figure>
-					<img src="images/slide1.png" width="525px" height="260px">
-				</figure>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 image_voce" style="padding-left: 30px; padding-right: 30px; text-align: center;">
+					<img src="images/slide1.png" class="image_middle"  width="525px" height="260px">
 			</div>
-			<div class="col-xs-12 col-sm-1 col-md-6 col-lg-6 " style="padding-left: 30px; padding-right: 30px">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 " style="padding-left: 30px; padding-right: 30px">
 				<div class="content2">
 					<h3 class="titletopic" style="">
 						<label>RECEBA EM CASA!</label>
@@ -167,7 +163,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" id="div_paracomer">
 		<div class="mid-section">
 			<div class="mid-top wow fadeInUpBig animated animated" data-wow-delay="0.4s">
 				<div class="row">
@@ -181,8 +177,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<p class="section">Deseja disponibilizar e vender seus produtos em um marketplace online de qualidade? Entre
 							em contato com nós!</p>
 					</div>
-					<div class="col-md-2 " style="text-align: center;">
-						<button type="button" class="btn btn-info fa fa-mobile fa-4x "
+					<div class="col-md-2 col_btncontto" style="text-align: center;">
+						<button type="button" id="btn_contato" class="btn btn-info fa fa-mobile fa-4x "
 							style="font-size: 30px; background-color: #63C6AE; border-color: #63C6AE">
 							<label style="font-size: 25px; font-family: 'Open Sans', sans-serif; font-weight: normal;">Contato</label>
 						</button>
@@ -192,7 +188,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
-	<div id="about" class="service-section">
+	<div class="service-section">
 		<div class="container">
 			<div class="serve-grids wow bounceIn animated" data-wow-delay="0.4s">
 				<div class="col-md-4 services-section-grid">
@@ -202,8 +198,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="service-icon-heading">
 							<h4>CONTROLE DE PEDIDOS</h4>
-							<p class="icons_text">Acompanhe seus pedidos em tempo real. Oferecemos um sistema acessível via web onde você
-								recebe, responde e organiza os pedidos que foram realizados através do TragoAqui para sua loja.</p>
+							<p class="icons_text">Oferecemos um sistema acessível via web onde você recebe, responde e organiza os
+								pedidos que foram realizados através do TragoAqui para sua loja em tempo real.</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -221,7 +217,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<div class="col-md-4 services-section-grid lost">
+				<div class="col-md-4 services-section-grid ">
 					<div class="services-section-grid-head">
 						<div class="service-icon">
 							<i class="fa fa-question  fa-2x icons"></i>
@@ -234,9 +230,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="serve-grids two  wow bounceIn animated" data-wow-delay="0.4s">
 				<div class="col-md-4 services-section-grid act">
 					<div class="services-section-grid-head">
 						<div class="service-icon">
@@ -263,7 +256,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="clearfix"></div>
 					</div>
 				</div>
-				<div class="col-md-4 services-section-grid lost">
+				<div class="col-md-4 services-section-grid ">
 					<div class="services-section-grid-head">
 						<div class="service-icon">
 							<i class="fa fa-eye   fa-2x icons"></i>
@@ -281,20 +274,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!--/start-footer-section-->
-	<div class="footer-section">
+	<div class="footer-section" id="div_contato">
 		<div class="container">
 			<div class="footer-grids wow bounceIn animated" data-wow-delay="0.4s">
 				<div class="col-md-6 footer-grid">
-					<h4 style="color:#63C6AE" >Contato</h4>
+					<h4 style="color: #63C6AE">Contato</h4>
 					<div class="border2"></div>
 					<ul style="color: white">
 						<li><i class="fa fa-map-marker"></i> Santa Cruz do Sul, RS</li>
-						<li><i class="fa fa-facebook-square"></i>  <a style="color: white" href="https:/www.facebook.com/TragoAquiFitness">www.facebook.com/TragoAquiFitness</a> </li>
+						<li><i class="fa fa-facebook-square"></i> <a style="color: white"
+							href="https:/www.facebook.com/TragoAquiFitness">www.facebook.com/TragoAquiFitness</a></li>
 						<li><i class="fa fa-mobile"></i> 51 9 96775246</li>
-						<li><i class="fa fa-envelope-o"></i> <a style="color: white" href="malito:suporte_fitness@tragoaqui.com.br"> suporte_fitness@tragoaqui.com.br </a></li>
+						<li><i class="fa fa-envelope-o"></i> <a style="color: white" href="malito:suporte_fitness@tragoaqui.com.br">
+								suporte_fitness@tragoaqui.com.br </a></li>
 					</ul>
 				</div>
-			
 				<div class="clearfix"></div>
 			</div>
 		</div>
@@ -304,7 +298,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="copyright">
 		<div class="container">
 			<div class="logo2  wow bounceInLeft" data-wow-delay="0.4s">
-				<a href="index.html"><img src="images/logo_horiz_fit.png" style="height: 50px" alt="" / title="logo" /></a>
+				<a href="index.html"><img src="images/logo_horiz_fit.png" style="height: 50px" alt="" title="logo" /></a>
 			</div>
 			<p class="write  wow bounceInRight" data-wow-delay="0.4s">
 				Copyright &copy; 2015 All rights Reserved | Template by &nbsp;<a href="http://w3layouts.com">W3layouts</a>
@@ -322,6 +316,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					scrollTop : $(this.hash).offset().top
 				}, 1000);
 			});
+
+			$("#div_paravoce_menu").click(function() {
+				$("html, body").animate({
+					scrollTop : $('#div_paravoce').offset().top - 100
+				}, 1000);
+			});
+
+			$("#div_paracomer_menu").click(function() {
+				$("html, body").animate({
+					scrollTop : $('#div_paracomer').offset().top - 100
+				}, 1000);
+			});
+
+			$("#div_contato_menu").click(function() {
+				$("html, body").animate({
+					scrollTop : $('#div_contato').offset().top 
+				}, 1000);
+			});
+			
+			$("#btn_contato").click(function() {
+				$("html, body").animate({
+					scrollTop : $('#div_contato').offset().top 
+				}, 1000);
+			});
+			
 
 			$().UItoTop({
 				easingType : 'easeOutQuart'
