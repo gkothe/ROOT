@@ -51,9 +51,7 @@ body {
 	font-family: Open Sans, sans-serif !important;
 }
 
-.topic1_h1 {
-	font-size: 35px !important;
-}
+
 
 .left-grid-1 h1, .left-grid-1 h2, .left-grid-1 h3 {
 	width: 90% !important;
@@ -61,7 +59,7 @@ body {
 
 @media ( max-width :1920px) {
 	.topic1_h1 {
-		font-size: 40px !important;
+		font-size: 25px !important;
 	}
 	.slider-bg {
 		padding-top: 85px
@@ -112,7 +110,7 @@ body {
 
 @media ( max-width :1440px) {
 	.topic1_h1 {
-		font-size: 40px !important;
+	font-size: 25px !important;
 	}
 	.slider-bg {
 		padding-top: 85px
@@ -163,7 +161,7 @@ body {
 
 @media ( max-width :1366px) {
 	.topic1_h1 {
-		font-size: 40px !important;
+	font-size: 25px !important;
 	}
 	.slider-bg {
 		padding-top: 85px
@@ -214,7 +212,7 @@ body {
 /* ok */
 @media ( max-width :1280px) {
 	.topic1_h1 {
-		font-size: 40px !important;
+	font-size: 25px !important;
 	}
 	.slider-bg {
 		padding-top: 85px
@@ -273,7 +271,7 @@ body {
 
 @media ( max-width :1024px) {
 	.topic1_h1 {
-		font-size: 40px !important;
+	font-size: 25px !important;
 	}
 	.nav {
 		font-size: 85%;
