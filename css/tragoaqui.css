@@ -52,6 +52,10 @@ body {
 }
 
 
+.copyright {
+    
+    background: #D4D4D4;
+}
 
 .left-grid-1 h1, .left-grid-1 h2, .left-grid-1 h3 {
 	width: 90% !important;
